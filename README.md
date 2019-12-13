@@ -27,7 +27,9 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/request-your-trial.png "Submit registration form")    
 
+5) After you will get a message confirming that your registration was received. Once registration is approved you will receive your login credentials. This process will take up to (1) business day.
 
+   ![alt text](images-deploy/registration-review.png "Registration under review")   
 
 5) Check your email for a registration confirmation similar to the following shown. You will need your User ID and Password from this email to sign in to the self service portal.
 
