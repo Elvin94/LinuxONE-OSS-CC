@@ -15,7 +15,7 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/dw-home.png "DeveloperWorks LinuxONE Home")
 
-2) Click **Try Virtual Machines on the LinuxONE™ Community Cloud** now.
+2) Click **Try Virtual Machines on the LinuxONE™ Community Cloud**.
 
 3) Complete the required fields on the registration form.
 
