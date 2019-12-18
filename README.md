@@ -22,7 +22,6 @@ This document will take you through the steps to get access to the LinuxONE comm
    ![alt text](images-deploy/registration-form.png "Registration form")
 
 
-
 4) Complete your registration by clicking **Request your trial**.
 
    ![alt text](images-deploy/request-your-trial.png "Submit registration form")    
@@ -44,24 +43,6 @@ This document will take you through the steps to get access to the LinuxONE comm
 * Click **Sign in**.
 
    ![alt text](images-deploy/ssp-login.png "Self-Service Portal login page")
-
-
-
-2) Now is also a good time to create or import an SSH key. An SSH public key is required to deploy Linux instance. The instance can only be accessed with your private key that matches the public key.
-* Click your **username** from the upper right corner of the Home page.
-
-* Select **Manage SSH Key Pairs**.
-![alt text](images-deploy/manage-key.png "Manage SSH keys")
-
-3) If you already have a public SSH key you wish to use with this cloud:    
-
-   * Click **Import**. 
-   * Enter a **Key Name** for this key.
-   * Browse your local file system to select the **public key path**.
-   * Click **Upload your public key**.
-![alt text](images-deploy/upload-key.png "Import SSH key")
-
-
 
 ## Deploy your LinuxONE virtual server
 
@@ -100,15 +81,16 @@ This document will take you through the steps to get access to the LinuxONE comm
    ![alt text](images-deploy/flavor.png "flavor")
    
  6) Create a new SSH key pair:     
+ * Click **Create**.
  
 ![alt text](images-deploy/click-create.png "Click Create")
 
-* Click **Create**.
+* Enter a **Key Name** for this key.
+* Click **Create a new key pair**.   
 
 ![alt text](images-deploy/create-key.png "Create SSH key")
 
-* Enter a **Key Name** for this key.
-* Click **Create a new key pair**.   
+
 * A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
 
 ![alt text](images-deploy/pem-file.png "Save SSH private key")   
