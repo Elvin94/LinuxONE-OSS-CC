@@ -104,11 +104,13 @@ This document will take you through the steps to get access to the LinuxONE comm
 ![alt text](images-deploy/click-create.png "Click Create")
 
 * Click **Create**.
-* Enter a **Ky Name** for this key.
+
+![alt text](images-deploy/create-key.png "Create SSH key")
+
+* Enter a **Key Name** for this key.
 * Click **Create a new key pair**.   
 * A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
 
-![alt text](images-deploy/create-key.png "Create SSH key")
 ![alt text](images-deploy/pem-file.png "Save SSH private key")   
 
 7) Select the SSH key to use.
