@@ -61,14 +61,7 @@ This document will take you through the steps to get access to the LinuxONE comm
    * Click **Upload your public key**.
 ![alt text](images-deploy/upload-key.png "Import SSH key")
 
-4) If you want to create a new SSH key pair:     
-* Click **Create**.
-* Enter a **Key Name** for this key.
-* Click **Create a new key pair**.   
-* A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
 
-![alt text](images-deploy/create-key.png "Create SSH key")
-![alt text](images-deploy/pem-file.png "Save SSH private key")   
 
 ## Deploy your LinuxONE virtual server
 
@@ -102,19 +95,31 @@ This document will take you through the steps to get access to the LinuxONE comm
 
    ![alt text](images-deploy/create-server-image.png "Create server image")
 
-6) Select the desired Linux flavor.
+5) Select the desired Linux flavor.
 
    ![alt text](images-deploy/flavor.png "flavor")
    
-5) Select the SSH key to use.
+ 6) Create a new SSH key pair:     
+ 
+![alt text](images-deploy/click-create.png "Click Create")
+
+* Click **Create**.
+* Enter a **Ky Name** for this key.
+* Click **Create a new key pair**.   
+* A pop-up window will appear asking you to save **yourkey. pem** file. This is your private key.  Please save it to a secure location.  Once this operation is complete, there is no way to retrieve this key. Click **OK** to save the file. 
+
+![alt text](images-deploy/create-key.png "Create SSH key")
+![alt text](images-deploy/pem-file.png "Save SSH private key")   
+
+7) Select the SSH key to use.
 
    ![alt text](images-deploy/create-server-select-key.png "Create server SSH key")
 
-6) Verify that all the information is correct and click **Create**.
+8) Verify that all the information is correct and click **Create**.
 
    ![alt text](images-deploy/create-server-submit.png "Create server submit")
 
-7) Watch the status of your newly deployed instance go through the following phases of start up:  *NETWORKING*, *SPAWNING*,  *ACTIVE*.  When your instance status changes to *ACTIVE*, it is ready for use.
+9) Watch the status of your newly deployed instance go through the following phases of start up:  *NETWORKING*, *SPAWNING*,  *ACTIVE*.  When your instance status changes to *ACTIVE*, it is ready for use.
 
    ![alt text](images-deploy/create-server-status.png "Create server status")
 
